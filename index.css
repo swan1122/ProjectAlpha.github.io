@@ -121,12 +121,17 @@ nav img{
     font-size:  50px;
     font-weight: 500;
 }
-.text-box p {
+.text-box p{
     
     margin: 10px 0 20px;
     position: relative;
     font-size: 25px;
     color: rgb(28, 27, 28);
+    @media only screen and (max-width: 600px) {
+        p {
+          color: blue;
+        }
+      }
 
 }
 .text-box button{
